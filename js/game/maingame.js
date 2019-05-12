@@ -175,7 +175,21 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+document.getElementById('gameUP').onclick = function () { 
+    changeSnakeDirection("Up");
+}
+document.getElementById('gameLeft').onclick = function () { 
+    changeSnakeDirection("Left");
+}
+document.getElementById('gameDown').onclick = function () { 
+    changeSnakeDirection("Down");
+}
+document.getElementById('gameRight').onclick = function () { 
+    changeSnakeDirection("Right");
+}
+
 function endGame(){
     clearInterval(Game._intervalId);
 }
+
 
