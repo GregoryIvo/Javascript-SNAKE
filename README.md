@@ -1,6 +1,4 @@
-# Javascript-SNAKE
-
-# WORKS BEST ON MOBILE!!
+# Javascript-SNAKE - WORKS BEST ON MOBILE!!
 https://gregoryivo.github.io/Javascript-SNAKE/
 
 
