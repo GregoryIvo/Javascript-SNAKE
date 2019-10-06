@@ -1,3 +1,7 @@
+///
+///First JavaScript Project - Wirtten by Gregory Ivo.
+///
+
 var mycanvas = document.getElementById('gameCanvas');
 var ctx = mycanvas.getContext('2d');
 var squareSize = 50;
@@ -49,6 +53,9 @@ document.getElementById('startGame').onclick = function () {
 
 // Start the game loop
 Game._intervalId = setInterval(Game, 1000 / GameFps);
+Game._intervalId = setInterval(Game, 1000 / GameFps);
+
+document.getgetElementById('startGame').style.display = "none";
 
 // To stop the game, use the following:
 //clearInterval(Game._intervalId);
